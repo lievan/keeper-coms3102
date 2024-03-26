@@ -37,7 +37,6 @@ function App(props) {
         notes.splice(notes.indexOf(note), 1);
       }
     });
-    event.preventDefault();
   }
 
   function createNote(note) {
